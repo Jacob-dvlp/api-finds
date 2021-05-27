@@ -12,7 +12,7 @@ Estou a 4 meses estudando <b> Node js </b>  e já crie  alguns Back End para dif
  ⚙ --Fazer login <br>
  ⚙ --Criar publicação <br>
  ⚙ --Listar publicações <br>
- ⚙ --Listar publicações por um usuario<br>
+ ⚙ --Listar publicações por  usuario<br>
  ⚙ --Atualizar publicação<br>
 
 <b>Está em processamento...</b>
