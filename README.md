@@ -3,9 +3,9 @@ Estou a 4 meses estudando <b> Node js </b>  e já crie  alguns Back End para dif
 ## Este será o primeiro projecto.
 <br>
 
-![Screen index](https://github.com/Jacob-dvlp/achados-e-procurados/blob/master/index.jpg)
+![Screen index](https://github.com/Jacob-dvlp/api-finds/blob/master/index.jpg)
 
-![user](https://github.com/Jacob-dvlp/achados-e-procurados/blob/master/user.jpg)
+![user](https://github.com/Jacob-dvlp/api-finds/blob/master/user.jpg)
 
 ## 📚 Páginas  ou Endpoint
 <b>Está em processamento...</b>
