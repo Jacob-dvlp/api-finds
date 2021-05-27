@@ -9,6 +9,7 @@ App.use(rotas);
 App.use(cores);
 
 App.use((error, res, next) => {
+    
     res.status(error.status || 500);
     res.json({ error: error.messagem })
 });
