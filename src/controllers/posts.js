@@ -1,4 +1,4 @@
- const knex = require("../data/connection");
+const knex = require("../data/connection");
 
 module.exports = {
   async creatPost(req, res, next) {

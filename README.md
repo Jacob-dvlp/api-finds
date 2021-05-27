@@ -8,7 +8,19 @@ Estou a 4 meses estudando <b> Node js </b>  e já crie  alguns Back End para dif
 ![user](https://github.com/Jacob-dvlp/api-finds/blob/master/user.jpg)
 
 ## 📚 Páginas  ou Endpoint
+ ⚙ --Criar conta <br>
+ ⚙ --Fazer login <br>
+ ⚙ --Criar publicação <br>
+ ⚙ --Listar publicações <br>
+ ⚙ --Listar publicações por um usuario<br>
+ ⚙ --Atualizar publicação<br>
+
 <b>Está em processamento...</b>
+
+
+
+
+
 <br>
 ## 🛠⚙ Tecnologias utilizadas
  
@@ -22,6 +34,7 @@ Estou a 4 meses estudando <b> Node js </b>  e já crie  alguns Back End para dif
 
  ## obs.: Para o funcionamento Do projecto deves configurar seguindo os seguintes passos: #Project setup
  
+ ⚙ --npm install <br>
  ⚙ --npm install <br>
  ⚙ --npm init <br>
  #Fazer o download dos modulos <br>
