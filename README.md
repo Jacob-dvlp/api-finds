@@ -1,6 +1,13 @@
 ## API Finds 
 Estou a 4 meses estudando <b> Node js </b>  e já crie  alguns Back End para difrente empresas Angolanas, mas inicie uma jornada de preencher o meu github com projectos open source.
+
+
 ## Este será o primeiro projecto.
+
+<b>Objectivo dessa API </b>   
+
+<p> É uma API que vai listar os itens perdidos nesse caso  o achado irá tirar uma foto e publicar no app e o procurado (dono do item perdido) ira entrar no aplicativo e pesqueisar o item que ele perdeu, caso ele achar ele vai entrar em contacto com o  achado(a pessoa que achou o tal item ) pra receber o que o lhe pertecem. </p>
+
 <br>
 
 ![Screen index](https://github.com/Jacob-dvlp/api-finds/blob/master/index.jpg)
