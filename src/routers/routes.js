@@ -20,5 +20,7 @@ routas.get("/index_posts",posts.indexPosts);
 routas.get("/mypost",posts.listMypost);
 routas.delete("/delete/:id",posts.deletePosts);
 routas.put("/update_post/:id",postfile.single("imagem"),posts.updatePost);
+routas.get("/total_post", posts.allPost);
+routas.get("/total_post_remove",posts.totalPostremove);
 
 module.exports = routas

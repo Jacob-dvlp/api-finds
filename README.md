@@ -14,12 +14,15 @@ Estou a 4 meses estudando <b> Node js </b>  e já crie  alguns Back End para dif
 
 ![user](https://github.com/Jacob-dvlp/api-finds/blob/master/user.jpg)
 
-## 📚 Páginas  ou Endpoint
+## 📚 Páginas  ou Endpoint da API.
+
  ⚙ --Criar conta <br>
  ⚙ --Fazer login <br>
  ⚙ --Criar publicação <br>
  ⚙ --Listar publicações <br>
  ⚙ --Listar publicações por  usuario<br>
+ ⚙ --Total  de  publicações ativa <br>
+ ⚙ --Total  de  publicações inativa <br>
  ⚙ --Atualizar publicação<br>
 
 <b>Está em processamento...</b>

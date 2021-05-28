@@ -124,4 +124,32 @@ module.exports = {
       return next(error);
     }
   },
+
+  async allPost(req, res, next) {
+    try {
+      const countPost = await knex("posts")
+        .where({ ativo: "true" })
+        .count("id_post");
+      console.log("Total", countPost);
+      if (countPost) {
+        return res.status(202).send(countPost);
+      } 
+    } catch (error) {
+      return next(error);
+    }
+  },
+
+  async totalPostremove(req, res, next) {
+    try {
+      const postRemove = await knex("posts")
+        .where({ativo: "false" })
+        .count("id_post");
+      if(postRemove) {
+        return res.status(202).send(postRemove);
+      }
+    } catch (error) {
+      console.log(error)
+      return next(error)
+    }
+  },
 };
