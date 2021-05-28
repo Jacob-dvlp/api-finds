@@ -51,7 +51,7 @@ Estou a 4 meses estudando <b> Node js </b>  e já crie  alguns Back End para dif
 <br>
 
  ## Base de Dados
- Primeiro crie uma base de dado com o nome procurados&achados , depois seguir os passos:
+ Primeiro crie uma base de dado com o nome procurados&achados , depois seguir os passos: <br>
 ⚙ --npx knex migrate:latest<br>
 
 <br>
