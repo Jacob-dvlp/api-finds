@@ -40,12 +40,22 @@ Estou a 4 meses estudando <b> Node js </b>  e já crie  alguns Back End para dif
 <br>
 
  ## obs.: Para o funcionamento Do projecto deves configurar seguindo os seguintes passos: #Project setup
- 
+
  ⚙ --npm install <br>
- ⚙ --npm install <br>
- ⚙ --npm init <br>
  #Fazer o download dos modulos <br>
- ⚙ --npm start <br>
+ ⚙ --npm init <br>
+
+<br>
+
+ ## Base de Dados
+ Primeiro crie uma base de dado com o nome procurados&achados , depois seguir os passos:
+⚙ --npx knex migrate:latest<br>
+
+<br>
+
+## Iniciar aplicação
+
+⚙ --npm start <br>
  #Compila o hot-reloads para desenvolvimento
  
  
