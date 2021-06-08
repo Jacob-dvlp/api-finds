@@ -10,7 +10,7 @@ exports.up = knex =>
             table.string("senha").notNullable(),
             table.string("email").unique().notNullable(),
             table.integer('numero').unique().notNullable(),
-        table.text("foto").notNullable()
+        table.text("foto").notNullable(),
         table.timestamp("createdAt").defaultTo(knex.fn.now()),
         table.timestamp("updatedAt").defaultTo(knex.fn.now());
     }

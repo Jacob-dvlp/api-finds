@@ -3,10 +3,10 @@ const knex = require("../data/connection");
 module.exports = {
   async creatPost(req, res, next) {
     try {
+      const id_key_user = req.userId;
       const { filename } = req.file;
       const { title, imagem } = req.body;
-      const id_key_user = req.headers.authorization;
-      if (id_key_user) {
+
         const posts = await knex("posts").insert({
           title,
           image_item: filename,
@@ -15,11 +15,9 @@ module.exports = {
         });
         console.log(posts);
         return res
-          .status(202)
-          .send({ message: "Publicação criado com Sucesso" });
-      } else {
-        return res.status(202).send({ message: "Erro ao criar pubicação" });
-      }
+        .status(202)
+        .send({ message: "Publicação criado com Sucesso" });
+      
     } catch (error) {
       next(error);
     }

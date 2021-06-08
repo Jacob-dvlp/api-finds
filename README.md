@@ -39,6 +39,8 @@ Estou a 4 meses estudando <b> Node js </b>  e já crie  alguns Back End para dif
 ⚙ Knex  <br>
 ⚙ Postgres <br>
 ⚙ bcrypt <br>
+⚙ jsonwebtoken <br>
+
 
 <br>
 
